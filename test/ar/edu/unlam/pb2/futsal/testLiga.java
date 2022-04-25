@@ -134,7 +134,7 @@ detalle de los autores de los goles, amonestados y expulsados*/
 		partido.expulsarJugador(jugador1);
 		
 		assertEquals(partido.getEquipo1().getCantidadDeJugadores(),4);
-		//assertEquals(partido.getAmonestados().contains(jugador1), jugador1.getAmonestaciones().contains(Tarjetas.AMARILLA));
+		assertEquals(partido.getAmonestados().contains(jugador1), jugador1.getAmonestaciones().contains(Tarjetas.AMARILLA));
 	}
 	
 }
